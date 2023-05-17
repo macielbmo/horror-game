@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  background-image: url(./background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  padding: 220px 0;
+
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+p {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+.destaque {
+  color: #ffc700;
+}
+
+h1 {
+  font-family: "Emilys Candy";
+  font-size: 64px;
+  font-weight: 400;
+  color: #ffc700;
+  text-transform: uppercase;
+  margin: 4px 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+button {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Inter";
+  font-weight: 700;
+
+  margin: 72px 16px 0 0;
+  border: none;
+  padding: 12px 32px;
+  cursor: pointer;
+}
+
+.read-more {
+  background: none;
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: underline 1px;
+  text-decoration-skip-ink: auto;
+  padding-bottom: 2px;
+}
+
+.play-now {
+  background-color: #ffc700;
+}
